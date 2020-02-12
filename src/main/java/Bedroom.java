@@ -36,4 +36,15 @@ public class Bedroom {
     public boolean isBooked() {
         return Bedroom.isBooked;
     }
+
+    public int guestCount() { return guests.size(); }
+
+    public void addGuest(Guest guest) {
+        this.guests.add(guest);
+    }
+
+    public void removeGuest(Guest guest) {
+        this.guests.remove(0);
+    }
 }
+

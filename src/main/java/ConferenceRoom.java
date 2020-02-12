@@ -7,19 +7,20 @@ public class ConferenceRoom {
     private ArrayList<Guest> guests;
     private int capacity;
 
-
-
     public ConferenceRoom(String name, int capacity) {
         this.isBooked = false;
-        this.name = "";
+        this.name = name;
+        this.guests = new ArrayList<Guest>();
+        this.capacity = capacity;
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
-    public boolean isBooked() {
-        return isBooked;
+
+    public int getCapacity() {
+        return this.capacity;
     }
 }
 

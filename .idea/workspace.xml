@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734f5f7d-079c-4ff5-abc2-3950aa8b9e0f" name="Default Changelist" comment="" />
+    <list default="true" id="734f5f7d-079c-4ff5-abc2-3950aa8b9e0f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ConferenceRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ConferenceRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ConferenceRoom.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ConferenceRoom.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +24,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -33,12 +44,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.GuestTest">
+  <component name="RunManager" selected="JUnit.HotelTest.canRemoveGuestFromRoom">
     <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanHotel" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,12 +60,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BedroomTest.bedroomHasRoomNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConferenceRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CodeClanHotel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
-      <option name="METHOD_NAME" value="bedroomHasRoomNumber" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -67,11 +78,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HotelTest.canAddGuestToRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanHotel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="canAddGuestToRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelTest.canRemoveGuestFromRoom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CodeClanHotel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotelTest" />
+      <option name="METHOD_NAME" value="canRemoveGuestFromRoom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest.canRemoveGuestFromRoom" />
+        <item itemvalue="JUnit.HotelTest.canAddGuestToRoom" />
+        <item itemvalue="JUnit.ConferenceRoomTest" />
         <item itemvalue="JUnit.GuestTest" />
         <item itemvalue="JUnit.BedroomTest" />
-        <item itemvalue="JUnit.BedroomTest.bedroomHasRoomNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -101,21 +134,21 @@
       <screen x="0" y="23" width="1680" height="949" />
     </state>
     <state x="585" y="113" key="#com.intellij.ide.util.MemberChooser/0.23.1680.949@0.23.1680.949" timestamp="1581514747510" />
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581514658298">
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom" timestamp="1581517779971">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1581514658298" />
-    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581514658297">
+    <state width="1612" height="238" key="GridCell.Tab.0.bottom/0.23.1680.949@0.23.1680.949" timestamp="1581517779971" />
+    <state width="1612" height="238" key="GridCell.Tab.0.center" timestamp="1581517779970">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1581514658297" />
-    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581514658297">
+    <state width="1612" height="238" key="GridCell.Tab.0.center/0.23.1680.949@0.23.1680.949" timestamp="1581517779970" />
+    <state width="1612" height="238" key="GridCell.Tab.0.left" timestamp="1581517779970">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1581514658297" />
-    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581514658297">
+    <state width="1612" height="238" key="GridCell.Tab.0.left/0.23.1680.949@0.23.1680.949" timestamp="1581517779970" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right" timestamp="1581517779970">
       <screen x="0" y="23" width="1680" height="949" />
     </state>
-    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1581514658297" />
+    <state width="1612" height="238" key="GridCell.Tab.0.right/0.23.1680.949@0.23.1680.949" timestamp="1581517779970" />
   </component>
 </project>
